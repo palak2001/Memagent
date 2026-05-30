@@ -1,0 +1,63 @@
+(.venv) palakmittal@Palaks-MacBook-Air neander % python -m neander.cli
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 20355.90it/s]
+Neander  —  /memory list | forget <desc> | delete <id>  |  /quit to exit
+Provider: openai   Model: gpt-4o
+Active memories: 0
+
+You: i am software engineer at phonepe, and i love to travel sometimes
+Agent: That's great to hear! Working at PhonePe as a software engineer must be exciting with all the challenges of fintech. Combining that with a love for travel sounds like a nice balance for both your professional and personal life. Do you have any trips planned or any places you're particularly eager to visit next?
+You: no nothing, because currently my interests shifts to building ai agents
+Agent: That sounds like a fascinating shift! Building AI agents can be incredibly rewarding and opens up a lot of new possibilities in tech. Are you exploring this on your own, or is it part of your work at PhonePe?
+You: /memory list
+Active memories (4):
+  [2d2a4c71] (fact)  The user is a software engineer.
+  [c91bc65a] (fact)  The user works at PhonePe.
+  [20b98016] (preference)  The user loves to travel.
+  [78a82195] (preference)  The user's current interest is building AI agents.
+You: /quit
+Bye.
+
+[saving memories...] done.
+(.venv) palakmittal@Palaks-MacBook-Air neander % python -m neander.cli
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 9470.45it/s]
+Neander  —  /memory list | forget <desc> | delete <id>  |  /quit to exit
+Provider: openai   Model: gpt-4o
+Active memories: 4
+
+You: i am bored what should i do of my interest
+Agent: Since you're interested in building AI agents, you could explore designing a small project around that. Perhaps start by creating a simple chatbot or an AI-based game. If you're in the mood for something less technical, perhaps plan a getaway to explore a new destination and combine it with your love for travel.
+You: i forgot to tell u that i quitted phonepe and now i work at neander.ai
+Agent: Congratulations on your new role at Neander.ai! That sounds like a great opportunity, especially considering your interest in AI. How are you finding it so far?
+You: /memory list
+Active memories (6):
+  [2d2a4c71] (fact)  The user is a software engineer.
+  [c91bc65a] (fact)  The user works at PhonePe.
+  [20b98016] (preference)  The user loves to travel.
+  [78a82195] (preference)  The user's current interest is building AI agents.
+  [9b947aae] (fact)  The user works at Neander.ai.
+  [67b6f9dc] (decision)  The user quit PhonePe.
+You: /quit
+Bye.
+
+[saving memories...] done.
+(.venv) palakmittal@Palaks-MacBook-Air neander % python -m neander.cli
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 9077.44it/s]
+Neander  —  /memory list | forget <desc> | delete <id>  |  /quit to exit
+Provider: openai   Model: gpt-4o
+Active memories: 6
+
+You: where do i work
+Agent: You work at Neander.ai.
+You: when did i joined
+Agent: You haven't shared the specific date you joined Neander.ai. If you'd like to tell me, I can keep it in mind for future reference.
+You: where i used to work earlier
+Agent: You used to work at PhonePe before joining Neander.ai.
+You: /quit
+Bye.
+
+[saving memories...] done.
+(.venv) palakmittal@Palaks-MacBook-Air neander % python -m neander.cli
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 8709.77it/s]
+Neander  —  /memory list | forget <desc> | delete <id>  |  /quit to exit
+Provider: openai   Model: gpt-4o
+Active memories: 6
